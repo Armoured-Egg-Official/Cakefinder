@@ -1,7 +1,5 @@
 #this is the correct one without double negatives
 import requests
-import urllib.request
-import urllib3
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime
@@ -10,8 +8,6 @@ import io
 import base64
 import nbt
 import time
-import datetime
-import os
 import win32com.client as wincl
 speak = wincl.Dispatch("SAPI.SpVoice")
 def decode_inventory_data(raw):
