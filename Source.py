@@ -1,4 +1,3 @@
-#this is the correct one without double negatives
 import requests
 from bs4 import BeautifulSoup
 import re
